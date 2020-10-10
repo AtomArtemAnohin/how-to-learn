@@ -63,7 +63,6 @@
   right: 0px;
 }
 /*Второй блок*/
-
 .two-columns {
   width: 175px;
   width: 80%;
@@ -72,7 +71,7 @@
   margin: 100px auto;
 }
 .two-columns__brief {
-  width: 175px; 
+  width: 175px;
   color: #2f80ed;
   display: flex-row;
   line-height: 1.2;
