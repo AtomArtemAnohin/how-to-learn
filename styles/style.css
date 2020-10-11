@@ -32,6 +32,7 @@
   font-size: 102px;
   font-weight: bold;
   width: 730px;
+  z-index: 3;
 }
 .header__subtitle {
   position: absolute;
@@ -45,6 +46,7 @@
 }
 .header__link {
   color: #2f80ed;
+  text-decoration: none;
 }
 .header__main-iillustration {
   position: absolute;
@@ -96,10 +98,10 @@
   margin-left: 0px;
   margin-right: 0px;
 }
-.two-columns__paragraph: first-of-type {
+.two-columns__paragraph:first-of-type {
   margin-top: 0;
 }
-.two-columns__paragraph: last-of-type {
+.two-columns__paragraph:last-of-type {
   margin-bottom: 0;
 } 
 /* третий блок */
@@ -159,7 +161,7 @@
 /* четвертый блок */
 
 .feynman {
-  height: 790px;
+  min-height: 790px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -204,50 +206,49 @@
   background-color:  #1f1f1f;
   color: white;
   overflow: hidden;
-
 }
-.section-title_theme-dark {
+.kaufman::before {
+  content: "";
+  display: block;
+  position: absolute;
+  right: -210px;
+  top: 0;
+  height: 877px;
+  width: 877px;
+  z-index: 1;
+  background-image: url(../images/kaufman-triangle.svg);
+  background-size: contain;
+}
+.section-title_theme_dark {
   margin-top: 90px;
-  width: 60%;
-  line-height: 1.15;
-  font-size: 60px;
-  font-weight: bold;
   z-index: 2;
 }
-.section-subtitle_theme-dark {
+.section-subtitle_theme_dark {
   margin-top: 20px;
-  width: 60%;
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
   z-index: 2;
 }
-.table_theme-dark{
+.table_theme_dark{
   margin: 0% auto;
   margin-bottom: 90px;
 }
-.table__cell_theme-dark {
+.table__cell_theme_dark {
   margin: 80px 0px;
   width: 200px;
   margin-bottom: 0px;
   z-index: 2;
 }
-.table__heading_theme-dark {
+.table__heading_theme_dark {
   line-height: 1.15px;
   font-size: 24px;
   font-weight: bold;
 }
-.table__text_theme-dark {
+.table__text_theme_dark {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
 }
-.kaufman__triangel{
-  position: absolute;
-  right: -210px;
-  top: 0;
-  height: 877px;
-  z-index: 1;
+.kaufman__triangle{
+  
 }
 /* шестой блок */
 
