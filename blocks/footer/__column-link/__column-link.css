@@ -2,4 +2,10 @@
   text-decoration: none;
   font-weight: normal;
   color: #fff;
+  transition: opacity .2s linear;
+  cursor: pointer;
+}
+.footer__column-link:hover {
+  opacity: .6;
+
 }
