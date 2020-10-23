@@ -1,20 +1,10 @@
 .kaufman {
     position: relative;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     background-color:  #1f1f1f;
     color: white;
     overflow: hidden;
   }
-  .kaufman::before {
-    content: "";
-    display: block;
-    position: absolute;
-    right: -210px;
-    top: 0;
-    height: 877px;
-    width: 877px;
-    z-index: 1;
-    background-image: url(../../../images/kaufman-triangle.svg);
-    background-size: contain;
-  }
+  
