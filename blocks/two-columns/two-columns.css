@@ -1,7 +1,7 @@
 .two-columns {
-    width: 175px;
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
-    margin: 100px auto;
-  }
+  width: 175px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: 100px auto 80px;
+}
